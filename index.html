@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Personal Portfolio Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/5c8dbc25e6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+       <nav>
+         <img src="images/logo.png" class="logo">
+         <ul>
+             <li><a href="#header">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#services">Services</a></li>
+             <li><a href="#portfolio">Portfolio</a></li>
+             <li><a href="#contact">Contact</a></li>
+         </ul>
+       </nav>
+       <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span>Ayush Kumar</span><br> From India</h1>
+       </div>
+    </div>
+</div>
+  <!-- ---------------about------------------ -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+           <img src="images/user.png">
+             </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Hi everyone,
+               My name is Ayush Kumar a sophomore at Medicaps University , 
+               Indore currently pursuing Bachelor's of Technology in 
+               Sophisticated Computer Science . My technical interest 
+               includes Python & java Development,  Machine Learning and 
+               Competitive Programming(java, python) .</p>
+            <div class="tab-titles">
+               <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+               <p class="tab-links" onclick="opentab('experience')">Experience</p>
+               <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                  <li><span>Web Development</span><br>Designing Web interface</li>
+                  <li><span>Competitive Programming</span><br>Solving competitive questions</li>
+                  <li><span>Java & Python Development</span><br>Integrates Java & Python Programming Language into the development</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+              <ul>
+                  <li><span>Intern At IIT Mandi,H.P</span><br>Python development in ML & AI</li>
+                  <li><span>Google Developer Student Club</span><br>Fundamental knowledge of software development concepts</li>
+                  <li><span>Intern At Coding Ninja</span><br>Planning and executing programming objectives</li>
+                </ul>
+        </div>
+        <div class="tab-contents" id="education">
+              <ul>
+                  <li><span>B.tech in Computer Science branch</span><br>Medi-Caps University,Indore,M.P</li>
+                  <li><span>12th(CBSE)</span><br>A.D.S.V.M,Bhagalpur,Bihar</li>
+                  <li><span>10th(CBSE)</span><br>DAV Public School,Bhagalpur,Bihar</li>
+              </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- ------------services----------------- -->
+<div id ="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-sharp fa-solid fa-code"></i>
+        <h2>Web design</h2>
+        <p>Planning, Conceptualizing & Arranging content online. </p>
+        <a href="#">Learn more</a>
+      </div>
+       <div>
+         <i class="fa-regular fa-bug"></i>
+        <h2>Fixing Defects</h2>
+        <p>Managing systems performance, providing tech support, reviewing and updating existing programs</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-person"></i>
+        <h2>Mentorship</h2>
+        <p>Answer coding questions,Look over assignments & projects, provide advice or guidance</p>
+        <a href="#">Learn more</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+  <!-- -----------------portfolio------------ -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png" >
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>
+              The app connects you to the talented people around the world. Download it from play store.
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png" >
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>
+              A media player application developed for the iOS, iPadOS, tvOS, watchOS, macOS, Android.
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png" >
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>
+              Allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app.
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!------------------ contact -------------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+      <div class="contact-left">
+      <h1 class-"sub-title">Contact Me</h1>
+      <p><i class="fa-solid fa-paper-plane"></i> ayushkumar74441@gmail.com</p>
+      <p><i class="fa-sharp fa-solid fa-phone-volume"></i> 6202315242</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/ayush-kumar-952b88212"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://instagram.com/the_.ayush_?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+        <a href="discordapp.com/users/1087274013212016700"><i class="fa-brands fa-discord"></i></a>
+        <a href="https://github.com/ayushkumar09"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+      </div>
+      <div class="contact-right"></div>
+         <form name="submit-to-google-sheet">
+           <input type="text" name="Name" placeholder="Your Name" required>
+           <input type="text" name="Email" placeholder="Your Email" required>
+           <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+           <button type="submit" class="btn btn2">Submit</button>
+           
+         </form> 
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ Protfolio <i class="fa-solid fa-heart"></i> . Made By Ayush Kumar</p>
+</div>
+      
+  
+      
+    
+<script>
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   function opentab(tabname){
+     for(tablink of tablinks){
+         tablink.classList.remove("active-link");
+     }
+      for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+     }
+     event.currentTarget.classList.add("active-link");
+     document.getElementById(tabname).classList.add("active-tab");
+   }
+</script>
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbygcN2EaM3nM7Cw0apbm8lpCPjXtRN_zdBN6k-fz_HbFT4y6l9vo53ss6e7SsAU2DGfpg/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
